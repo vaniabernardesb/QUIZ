@@ -1,0 +1,93 @@
+body{
+    color:white;
+}
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box; 
+}
+.column {
+    margin-bottom: 3rem;
+    width: 100%;
+    float: center;
+    box-sizing: border-box; 
+}
+  
+@media (min-width: 640px) {
+    .container {
+      width: 80%;
+      padding: 0; }
+    .column {
+      margin-left: 4%; }
+    .column:first-child {
+      margin-left: 0; } 
+      .full-width.column              { width: 100%; margin-left: 0; }  
+
+      .one-half.column                { width: 48%; }
+    
+      .one-third.column               { width: 30.6666666667%; }
+      .two-third.column               { width: 65.3333333333%; }
+    
+      .one-quarter.column             { width: 22%; }
+      .two-quarter.column             { width: 48%; }
+      .three-quarter.column           { width: 74%; }
+    
+      .one-half.column                { width: 48%; } 
+}
+.container:after,
+.row:after,
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+.center {
+    text-align: center;
+}
+.questions_box {
+    padding: 60px;
+    text-align: left;
+    max-width: 960px;
+
+}
+.button {
+    font-family: 'Barclaycard Co Lt',Tahoma,sans-serif;
+    margin: 10px 0 0 0;
+    cursor: pointer;
+    font-size: 1em;
+
+    border: none;
+    padding: 10px 15px;
+    line-height: 18px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    vertical-align: baseline;
+    background: #075da8;
+    color: white;
+    text-decoration: none !important;
+    display: inline-block;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -webkit-transition: background-color 200ms ease-in-out;
+    -moz-transition: background-color 200ms ease-in-out;
+    -o-transition: background-color 200ms ease-in-out;
+    transition: background-color 200ms ease-in-out;
+}
+  
+.button:hover {
+    background-color: #059fdb !important;
+    color: white;
+}
+#progress_bar {
+    background-color: #018fd0;
+    width: 10%;
+    height: 10px;
+    transition: all 100ms ease-in-out;
+}
+#question-2, #question-3, #question-4, #question-5, #question-6, #question-7, #question-8, #question-9, #question-10, #question-11{
+    display: none;
+}
